@@ -12,10 +12,13 @@
     <title>Pictures</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-md fixed-top bg-dark navbar-dark" style="padding-left: 2%;">
-    
-    <a href="index.html" class="navbar-brand">**** *****</a>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md fixed-top bg-dark navbar-dark pl-3 pr-3">
+    <!-- Logo Navbar -->
+    <a href="index.html" class="navbar-brand"><img src="./img/makiLogo.png" alt="logo" width="30" height="40" class="d-inline-block align-text-top"></a>
+    <!-- Logo Navbar x-->
 
+    <!-- Hamburger Menu and Links -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle Navigation">
 
         <span class="navbar-toggler-icon"></span>
@@ -27,26 +30,30 @@
                 <a class="nav-item nav-link" href="menu.html"><img src="./img/poulpe.png"> Menu</a>
             </div>
             <div>
-                <a class="nav-item nav-link" href="pictures.html"><img src="./img/poulpe.png"> Galery</a>
+                <a class="nav-item nav-link" href="pictures.html"><img src="./img/poulpe.png"> Gallery</a>
             </div>
             <div>
                 <a class="nav-item nav-link" href="contact.html"><img src="./img/poulpe.png"> Contact</a>
             </div>
             <div>
-                <a class="nav-item nav-link" href="restaurant.html"><img src="./img/poulpe.png"> Restaurant</a>
+                <a class="nav-item nav-link" href="restaurant.html"><img src="./img/poulpe.png"> Restaurants</a>
             </div>
         </div>
-    
     </div>
+    <!-- Hamburger Menu and Links x-->
   </nav>
-    <div id="carouselGalery" class="carousel slide" data-bs-ride="carousel">
+  <!-- Navbar x-->
+
+    <!-- Carousel -->
+      <div id="carouselGalery" class="carousel slide pl-3 pr-3 mt-5 pt-5"     data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselGalery" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselGalery" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselGalery" data-bs-slide-to="2" aria-label="Slide 3"></button>
           <button type="button" data-bs-target="#carouselGalery" data-bs-slide-to="3" aria-label="Slide 4"></button>
         </div>
-        <div class="carousel-inner" style="margin-top: 13%;">
+        <!-- Carousel Images and interval -->
+        <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="5000">
             <div class="row">
               <div class="col-lg-4">
@@ -92,7 +99,7 @@
                 <img src="./img/mangaBook1.jpg" class="d-block w-100" alt="manga">
               </div>
               <div class="col-lg-4">
-                <img src="./img/maki5.jpg" class="d-block w-100" alt="maki">
+                <img src="./img/maki13.jpg" class="d-block w-100" alt="maki">
               </div>
               <div class="col-lg-4">
                 <img src="./img/mangaRead.jpg" class="d-block w-100" alt="maki">
@@ -100,6 +107,9 @@
             </div>
           </div>
         </div>
+        <!-- Carousel Images and Interval x-->
+
+        <!-- Carousel Button -->
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselGalery" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
@@ -108,9 +118,11 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
+        <!-- Carousel Button x-->
       </div>
-   
+      <!-- Carousel x-->
 
+      <!-- JS -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
